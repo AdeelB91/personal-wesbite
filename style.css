@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@100&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  color: rgb(2, 2, 2);
+  background-color: rgb(146, 161, 163);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+header {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+  font-size: 40px;
+  color: aliceblue;
+}
+
+.mynameis {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  font-family: Roboto;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+  border-radius: 10em;
+}
+
+section {
+  display: flex;
+  border: 9px double #686a6e;
+  padding: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  color: black;
+  justify-content: center;
+  gap: 5px;
+  border-radius: 1em;
+}
+.about-me {
+  border: 3px double #686a6e;
+  border-radius: 2em;
+}
+.interest {
+  border: 3px double #686a6e;
+  border-radius: 2em;
+}
+.skills {
+  border: 3px double #686a6e;
+  border-radius: 2em;
+}
+.languages {
+  border: 3px double #686a6e;
+  border-radius: 2em;
+}
+img {
+  border-radius: 2em;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px;
+}
+.icon {
+  display: flex;
+  gap: 50px;
+}
+
+footer {
+  color: aliceblue;
+}
