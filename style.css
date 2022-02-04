@@ -6,10 +6,30 @@
 body {
   font-family: Roboto;
   color: rgb(2, 2, 2);
-  background-color: rgb(146, 161, 163);
+  background-color: rgb(255, 255, 255);
   height: 100%;
   width: 100%;
   text-align: center;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #6ecec9;
+  color: white;
 }
 
 header {
@@ -18,15 +38,12 @@ header {
 }
 h1 {
   display: flex;
-  justify-content: center;
   font-size: 40px;
-  color: aliceblue;
 }
 
 .mynameis {
   display: flex;
   justify-content: center;
-  color: aliceblue;
   font-family: Roboto;
 }
 
@@ -36,34 +53,15 @@ h1 {
 
 section {
   display: flex;
-  border: 9px double #686a6e;
   padding: 5px;
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color: white;
-  color: black;
+  background-image: url(https://www.wallpapertip.com/wmimgs/72-724181_abstract-white-silver-cool-black-line-hd-wallpaper.jpg);
+  color: rgb(7, 7, 7);
   justify-content: center;
   gap: 5px;
-  border-radius: 1em;
-}
-.about-me {
-  border: 3px double #686a6e;
-  border-radius: 2em;
-}
-.interest {
-  border: 3px double #686a6e;
-  border-radius: 2em;
-}
-.skills {
-  border: 3px double #686a6e;
-  border-radius: 2em;
-}
-.languages {
-  border: 3px double #686a6e;
-  border-radius: 2em;
+  margin: 10%;
 }
 img {
-  border-radius: 2em;
+  border-radius: 50em;
 }
 .text {
   display: flex;
@@ -73,9 +71,17 @@ img {
 }
 .icon {
   display: flex;
+  justify-content: center;
   gap: 50px;
 }
-
+.cicon {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+}
 footer {
   color: aliceblue;
 }
