@@ -28,7 +28,7 @@ body {
   color: black;
 }
 .topnav a.active {
-  background-color: #6ecec9;
+  background-color: #8bdcd8;
   color: white;
 }
 
@@ -38,13 +38,17 @@ header {
 }
 h1 {
   display: flex;
-  font-size: 40px;
+  font-size: 50px;
+  text-align: left;
+  margin-bottom: 100px;
 }
 
 .mynameis {
   display: flex;
   justify-content: center;
   font-family: Roboto;
+  font-size: 35px;
+  margin-bottom: 50px;
 }
 
 .logo {
@@ -54,11 +58,12 @@ h1 {
 section {
   display: flex;
   padding: 5px;
-  background-image: url(https://www.wallpapertip.com/wmimgs/72-724181_abstract-white-silver-cool-black-line-hd-wallpaper.jpg);
+  background-color: #c2f3f0;
   color: rgb(7, 7, 7);
   justify-content: center;
   gap: 5px;
-  margin: 10%;
+  margin-bottom: 50px;
+  border-radius: 1em;
 }
 img {
   border-radius: 50em;
@@ -73,15 +78,20 @@ img {
   display: flex;
   justify-content: center;
   gap: 50px;
+  margin-bottom: 100px;
 }
 .cicon {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 130px;
 }
 .contact {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 70px;
 }
+
 footer {
-  color: aliceblue;
+  color: rgb(0, 0, 0);
 }
