@@ -7,10 +7,14 @@ body {
   font-family: Roboto;
   color: rgb(2, 2, 2);
   background-color: rgb(255, 255, 255);
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
   text-align: center;
 }
+body {
+  display: block;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -45,16 +49,24 @@ h1 {
   display: flex;
   font-size: 50px;
   text-align: left;
-  margin-left: 92px;
+  margin-left: 93px;
+  margin-right: 93px;
   margin-bottom: 200x;
 }
-
-.mynameis {
+.me {
   display: flex;
-  font-family: Roboto;
-  font-size: 35px;
-  margin-left: 92px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #d5f3f1;
+}
+.Adeel {
+  border-radius: 50em;
+  margin-right: 112px;
+}
+h2 {
+  font-size: 30px;
+  margin-left: 93px;
   text-align: left;
 }
 
@@ -64,36 +76,35 @@ h1 {
 
 .mainpart {
   display: flex;
-  padding: 50px;
-  background-color: #c2f3f0;
+  padding: 5px;
+  border: 12px double #d5f3f1;
   color: rgb(7, 7, 7);
   justify-content: center;
-  gap: 40px;
+  gap: 50px;
   margin-bottom: 50px;
   border-radius: 1em;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-img {
-  border-radius: 50em;
+  margin-left: 93px;
+  margin-right: 93px;
+  flex-wrap: wrap;
 }
 .inside-headline {
   font-size: 30px;
 }
 
 .text {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin: 20px;
   font-size: 20px;
+}
+.social {
+  border-top: 12px double #d5f3f1;
+  margin-left: 93px;
+  margin-right: 93px;
 }
 
 .icon {
   display: flex;
   justify-content: center;
   gap: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 .cicon {
   display: flex;
@@ -101,10 +112,15 @@ img {
   gap: 170px;
 }
 .contact {
+  border-top: 12px double #d5f3f1;
+  margin-left: 93px;
+  margin-right: 93px;
+}
+.mycontact {
   display: flex;
   justify-content: center;
   gap: 100px;
-  margin-bottom: 90px;
+  margin-bottom: 40px;
 }
 .numbers:link,
 .numbers:visited {
