@@ -11,6 +11,9 @@ body {
   width: 100%;
   text-align: center;
 }
+html {
+  scroll-behavior: smooth;
+}
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -40,40 +43,50 @@ h1 {
   display: flex;
   font-size: 50px;
   text-align: left;
-  margin-bottom: 100px;
+  margin-left: 80px;
+  margin-bottom: 200x;
 }
 
 .mynameis {
   display: flex;
-  justify-content: center;
   font-family: Roboto;
   font-size: 35px;
+  margin-left: 80px;
   margin-bottom: 50px;
+  text-align: left;
 }
 
 .logo {
   border-radius: 10em;
 }
 
-section {
+.mainpart {
   display: flex;
-  padding: 5px;
+  padding: 50px;
   background-color: #c2f3f0;
   color: rgb(7, 7, 7);
   justify-content: center;
-  gap: 5px;
+  gap: 40px;
   margin-bottom: 50px;
   border-radius: 1em;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 img {
   border-radius: 50em;
 }
+.inside-headline {
+  font-size: 35px;
+}
+
 .text {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   margin: 20px;
+  font-size: 25px;
 }
+
 .icon {
   display: flex;
   justify-content: center;
@@ -93,5 +106,8 @@ img {
 }
 
 footer {
-  color: rgb(0, 0, 0);
+  color: rgb(248, 248, 248);
+  background-color: #333;
+  padding: 3px;
+  margin: 3px;
 }
