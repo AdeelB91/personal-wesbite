@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -14,10 +15,10 @@ body {
 body {
   display: block;
 }
-
 html {
   scroll-behavior: smooth;
 }
+
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -47,57 +48,69 @@ header {
 }
 h1 {
   display: flex;
+  font-family: "open sans";
   font-size: 50px;
   text-align: left;
-  margin-left: 93px;
-  margin-right: 93px;
+  margin-left: 97px;
+  margin-right: 97px;
   margin-bottom: 200x;
 }
 .me {
   display: flex;
   margin-bottom: 70px;
   flex-wrap: wrap;
+  background-color: #8bdcd8;
   justify-content: space-between;
-  background-color: #d5f3f1;
+}
+.welcometext {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  font-size: 33px;
+  margin-left: 97px;
+  text-align: left;
+}
+.logo {
+  margin-right: 145px;
 }
 .Adeel {
   border-radius: 50em;
-  margin-right: 112px;
-}
-h2 {
-  font-size: 30px;
-  margin-left: 93px;
-  text-align: left;
+  margin-left: 2em;
 }
 
-.logo {
-  border-radius: 10em;
-}
-
-.mainpart {
+.main {
   display: flex;
   padding: 5px;
-  border: 12px double #d5f3f1;
+  border: 12px double #8bdcd8;
   color: rgb(7, 7, 7);
   justify-content: center;
   gap: 50px;
   margin-bottom: 50px;
   border-radius: 1em;
-  margin-left: 93px;
-  margin-right: 93px;
-  flex-wrap: wrap;
+  margin-left: 97px;
+  margin-right: 97px;
+  flex-direction: row;
+}
+.firstpart {
+  display: flex;
+  align-items: center;
+}
+.line1 {
+  display: flex;
+  flex-direction: column;
 }
 .inside-headline {
   font-size: 30px;
 }
 
 .text {
-  font-size: 20px;
+  font-size: 17px;
 }
 .social {
-  border-top: 12px double #d5f3f1;
-  margin-left: 93px;
-  margin-right: 93px;
+  border-top: 12px double #8bdcd8;
+  margin-left: 97px;
+  margin-right: 97px;
 }
 
 .icon {
@@ -114,9 +127,11 @@ h2 {
   gap: 170px;
 }
 .contact {
-  border-top: 12px double #d5f3f1;
-  margin-left: 93px;
-  margin-right: 93px;
+  border-top: 12px double #8bdcd8;
+  margin-left: 97px;
+  margin-right: 97px;
+  border-bottom: 12px double #8bdcd8;
+  margin-bottom: 30px;
 }
 .mycontact {
   display: flex;
