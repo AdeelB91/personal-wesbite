@@ -4,57 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
+    <title>Wesbite A.B.</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
+      <div  id="header"
+            class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#aboutme">About me</a>
+        <a href="#socials">Socials</a>
+        <a href="#contacts">Contact</a>
+      </div>      
       <h1>
-        Hier steht eine Headline, die alle 10 Sekunden wechselt. Diese Headline
+        Hier sehen Sie eine Headline, die alle 10 Sekunden wechselt. Diese Headline
         wird automatisch aus dem Web generiert.
       </h1>
-      <h2 class="mynameis">Hello! My Name is Adeel Butt</h2>
-      <img
-      class="logo"
-      alt="Logo Adeel Butt"
-      src="Images/Logo AB.png"
-      width="100"/>
-
-      <nav></nav>
+      
     </header>
 
-    <main>
-      <section>
+      <div class="me">
+        <article class="welcometext">
+          <h2>Hello!</h2>
+        <h2>Welcome to my first Website!</h2>
+</article>
+<img
+class="logo"
+alt="Logo Adeel Butt"
+src="Images/Logo AB.png"
+width="200"/>
+
+</div>
+    </header>
+
+    <main>      
+      <section id="aboutme"
+      class="main">
+
+        <div class="firstpart">
         <img
-          class="Adeel"
-          alt="Picture of Adeel Butt"
-          src="Images/AdeelButtSW.jpg"
-          width="200"
-        />
-        <div class="about-me">
+        class="Adeel"
+        alt="Picture of Adeel Butt"
+        src="Images/AdeelButtqq.jpeg"
+        width="250"
+        height="250">
+
+        <article class="line1">
+        <h3 class="inside-headline">About me</h3>
+        <p class="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </article>
+      </div>
+
+      </section>
+
+      <section 
+      class="main">
+        <div class="CV">
           <h3 class="inside-headline">CV</h3>
           <ul class="text">
             <li>Supervisor Customer Service</li>
-            <li>XXXXXXXX</li>
-            <li>XXXXXXXX</li>
-            <li>XXXXXXXX</li>
-            <li>XXXXXXXX</li>
-          </ul>
-        </div>
-        <div class="skills">
-          <h3 class="inside-headline">Skills</h3>
-          <ul class="text">
-            <li>HTML</li>
-            <li>XXXXXXXX</li>
-            <li>XXXXXXXX</li>
-            <li>XXXXXXXX</li>
-            <li>XXXXXXXX</li>
-          </ul>
-        </div>
-        <div class="languages">
-          <h3 class="inside-headline">Languages</h3>
-          <ul class="text">
-            <li>German</li>
             <li>XXXXXXXX</li>
             <li>XXXXXXXX</li>
             <li>XXXXXXXX</li>
@@ -71,54 +79,77 @@
             <li>XXXXXXXX</li>
           </ul>
         </div>
-      </section>
+      <div class="skills">
+        <h3 class="inside-headline">Skills</h3>
+        <ul class="text">
+          <li>HTML</li>
+          <li>XXXXXXXX</li>
+          <li>XXXXXXXX</li>
+          <li>XXXXXXXX</li>
+          <li>XXXXXXXX</li>
+        </ul>
+      </div>
+        <div class="languages">
+          <h3 class="inside-headline">Languages</h3>
+          <ul class="text">
+            <li>German</li>
+            <li>XXXXXXXX</li>
+            <li>XXXXXXXX</li>
+            <li>XXXXXXXX</li>
+            <li>XXXXXXXX</li>
+          </ul>
+        </div>
+      </section>  
+      <div id="socials" class="social">
+        <h3>Finde me on</h3>
+        <div class="icon">
+        <a href="https://www.linkedin.com/in/adeel-butt-5b2468177/"
+          ><img
+            alt="linkedin icon"
+            src="https://logosmarken.com/wp-content/uploads/2020/04/Linkedin-Logo-2011%E2%80%932019.jpg"
+            width="115"
+        /></a>
+        <a href="https://codepen.io/AdeelB91">
+          <img
+            alt="codepenicon"
+            src="https://s3-us-west-2.amazonaws.com/images-devcamp/Digital+Literacy/Codepen.io_logo.png"
+            width="160"
+          />
 
-      <section>
-        <div class="contact">
-          <h3>Contact</h3>
+          <a href="https://github.com/AdeelB91"
+            ><img
+              alt="github icon"
+              src="https://i.ytimg.com/vi/ptK9-CNms98/maxresdefault.jpg"
+              width="135"
+          /></a>
+        </div>
+      </div>
+      <div id="contacts" class="contact">
+          <h3>Contact me</h3>
+          <div class="cicon">
           <img 
           alt="phone icon"
           src="Images/phone icon.jpeg"
-          width="50">
-          <p>+49 176 205 049 83</p>
+          width="40">
           <img
           alt="email icon"
-          src="Images/email icon.png"
-          width="50">
-
-          <p>adeel.butt.hh@gmail.com</p>
-        </div>
-      </section>
-
-      <section>
-        <div>
-          <h3>Also find me on:</h3>
-          <div class="icon">
-          <a href="https://www.linkedin.com/in/adeel-butt-5b2468177/"
-            ><img
-              alt="linkedin icon"
-              src="https://logosmarken.com/wp-content/uploads/2020/04/Linkedin-Logo-2011%E2%80%932019.jpg"
-              width="150"
-          /></a>
-          <a href="https://codepen.io/AdeelB91">
-            <img
-              alt="codepen icon"
-              src="https://s3-us-west-2.amazonaws.com/images-devcamp/Digital+Literacy/Codepen.io_logo.png"
-              width="170"
-            />
-
-            <a href="https://github.com/AdeelB91"
-              ><img
-                alt="github icon"
-                src="https://i.ytimg.com/vi/ptK9-CNms98/maxresdefault.jpg"
-                width="152"
-            /></a>
+          src="Images/mailicon.png"
+          width="35"
+          height="35">
           </div>
+
+          <div class="mycontact">
+            <a class="numbers" 
+            href="tel:+4917620504983">+49 176 *** ** **</a>
+          <a class="numbers" 
+          href="mailto:adeel.butt.hh@gmail.com">*****.****.**@gmail.com</a>
         </div>
-      </section>
+</div>
     </main>
     <footer>
+      <a class="backtotop" href="#header">Back to the top</a>
       <p>©Copyright by nobody. All rights reversed.</p>
+      <a class="backtotop" href="#header">Back to the top</a>
     </footer>
   </body>
 </html>
