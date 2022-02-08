@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  color: rgb(2, 2, 2);
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  width: auto;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: block;
+}
+html {
+  scroll-behavior: smooth;
+}
