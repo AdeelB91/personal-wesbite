@@ -1,0 +1,38 @@
+.social {
+    border-top: 12px double #8bdcd8;
+    margin-left: 97px;
+    margin-right: 97px;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 40px;
+  }
+  .cicon {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 170px;
+  }
+  .contact {
+    border-top: 12px double #8bdcd8;
+    margin-left: 97px;
+    margin-right: 97px;
+    border-bottom: 12px double #8bdcd8;
+    margin-bottom: 30px;
+  }
+  .mycontact {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 40px;
+  }
+  .numbers:link,
+  .numbers:visited {
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+  }
+  

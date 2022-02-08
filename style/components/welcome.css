@@ -1,0 +1,22 @@
+.me {
+  display: flex;
+  margin-bottom: 70px;
+  flex-wrap: wrap;
+  background-color: #8bdcd8;
+  justify-content: space-between;
+  flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.welcometext {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  font-size: 33px;
+  margin-left: 97px;
+  text-align: left;
+}
+.logo {
+  margin-right: 130px;
+}
